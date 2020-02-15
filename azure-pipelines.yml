@@ -162,7 +162,7 @@ steps:
       surveyjs-widgets.js
       surveyjs-widgets.min.js
       surveyjs-widgets.min.js.map
-      widgets\**
+      widgets\*
     TargetFolder: '$(SurveyJSVersion)'
     OverWrite: true
   displayName: 'copy build files - surveyjs-widgets'
