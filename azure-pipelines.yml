@@ -38,6 +38,6 @@ steps:
     git config --global user.name "dmitrykurmanov"
     git pull origin master
     git add $(SurveyJSVersion)/*
-    git commit -m "released j"
+    git commit -m "released $(SurveyJSVersion)"
     git push origin master
   displayName: 'push new build to the surveyjs/builds repo'
