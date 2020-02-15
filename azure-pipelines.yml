@@ -177,4 +177,4 @@ steps:
     git add $(SurveyJSVersion)/*
     git commit -m "released $(SurveyJSVersion)"
     git push origin master
-  displayName: 'push new build to the surveyjs/builds repo'
+  displayName: 'push build files to the surveyjs/builds repo'
