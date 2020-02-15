@@ -36,6 +36,7 @@ steps:
     echo $(git --version)
     git config --global user.email "kurmanov.work@gmail.com"
     git config --global user.name "dmitrykurmanov"
+    git checkout master
     git pull origin master
     git add $(SurveyJSVersion)/*
     git commit -m "released $(SurveyJSVersion)"
